@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Ranmocy",
   "license": "AGPL-3.0-or-later",
   "devDependencies": {
-    "@types/google-apps-script": "0.0.37"
+    "@types/google-apps-script": "0.0.37",
+    "@types/jest": "^24.0.24",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
   }
 }
